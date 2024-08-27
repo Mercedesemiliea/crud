@@ -1,0 +1,24 @@
+{
+    "version": 2,
+    "routes": [
+        {
+            "src": "/api/products.php",
+            "headers": {
+                "Location": "/products"
+            },
+            "status": 307
+        },
+        {
+            "src": "/",
+            "dest": "/api/index.php"
+        },
+        {
+            "src": "/products",
+            "dest": "/api/products.php"
+        },
+        {
+            "src": "/public/(.*)",
+            "dest": "/$1"
+        }
+    ]
+}
