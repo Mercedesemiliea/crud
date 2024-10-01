@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Robot A",
+    "price": 100,
+    "description": "A versatile robot."
+  },
+  {
+    "id": 2,
+    "name": "Robot B",
+    "price": 200,
+    "description": "A powerful robot."
+  },
+  {
+    "name": "rew",
+    "price": "233"
+  }
+]
